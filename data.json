@@ -1,0 +1,69 @@
+{
+  "colors": {
+    "happy": "#F0B000",
+    "disgusted": "#00BFA5",
+    "surprised": "#F50057",
+    "fearful": "#5E35B1",
+    "angry": "#D50000",
+    "disconnected": "#FF6D00",
+    "sad": "#03A9F4"
+  },
+  "labels": {
+    "happy": {
+      "optimistic": ["hopeful", "inspired"],
+      "trusting": ["sensitive", "intimate"],
+      "peaceful": ["loving", "thankful"],
+      "powerful": ["proud", "confident"],
+      "accepted": ["respected", "valued"],
+      "proud": ["successful", "accomplished"],
+      "interested": ["inquisitive", "curious"],
+      "content": ["free", "joyful"],
+      "playful": ["cheeky", "aroused"],
+      "excited": ["energetic", "eager"],
+      "cheerful": ["happy", "joyful"]
+    },
+    "surprised": {
+      "startled": ["shocked", "dismayed"],
+      "confused": ["disillusioned", "perplexed"],
+      "amazed": ["astonished", "awe"],
+      "excited": ["eager", "energetic"]
+    },
+    "sad": {
+      "lonely": ["isolated", "abandoned"],
+      "vulnerable": ["victimised", "fragile"],
+      "despairing": ["grieving", "powerless"],
+      "guilty": ["ashamed", "remorseful"],
+      "depressed": ["inferior", "empty"],
+      "hurt": ["embarrassed", "disappointed"]
+    },
+    "disconnected": {
+      "busy": ["pressured", "rushed"],
+      "distant": ["withdrawn", "numb"],
+      "bored": ["indifferent", "apathetic"],
+      "tired": ["sleepy", "unfocused"]
+    },
+    "fearful": {
+      "stressed": ["overwhelmed", "out of control"],
+      "scared": ["helpless", "frightened"],
+      "anxious": ["overwhelmed", "worried"],
+      "insecure": ["jealous", "inferior"],
+      "weak": ["worthless", "insignificant"],
+      "rejected": ["excluded", "persecuted"],
+      "threatened": ["nervous", "exposed"]
+    },
+    "angry": {
+      "let down": ["betrayed", "resentful"],
+      "humiliated": ["disrespected", "ridiculed"],
+      "bitter": ["resentful", "violated"],
+      "aggressive": ["provoked", "hostile"],
+      "frustrated": ["infuriated", "impatient"],
+      "critical": ["skeptical", "dismissive"]
+    },
+    "disgusted": {
+      "disapproving": ["judgmental", "critical"],
+      "disappointed": ["appalled", "revolted"],
+      "awful": ["nauseated", "horrified"],
+      "repelled": ["hesitant", "avoidant"]
+    }
+  }
+}

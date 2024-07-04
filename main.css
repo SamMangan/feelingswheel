@@ -1,0 +1,62 @@
+* {
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#svgContainer {
+  display: grid;
+  place-items: center;
+  margin: 1rem;
+  position: relative; /* Ensure it doesn't affect other elements */
+}
+
+.rotatable {
+  touch-action: none; /* Prevent touch scrolling */
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 1024px) {
+  #svgContainer {
+    height: calc(100vh - 2rem);
+    /* pointer-events: none; */
+  }
+
+  .rotatable {
+    /* pointer-events: auto; */
+  }
+}
+
+.spoke {
+  stroke: white;
+  stroke-width: 1.3px;
+}
+
+.outline {
+  fill: none;
+}
+
+#inner .outline {
+  fill: rgba(255, 255, 255, 0.25);
+}
+
+#middle .outline {
+  fill: rgba(255, 255, 255, 0.25);
+}
+
+textPath {
+  fill: white;
+  font-size: 22px;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: 500;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
